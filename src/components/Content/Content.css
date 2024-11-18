@@ -1,0 +1,97 @@
+:root {
+    --brown-color: #9E8B6B;
+    --white-color: #EEEEEE;
+    --title-color: #4B4436;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1370px;
+    height: 423px;
+    gap: 40px;
+}
+
+.intro p {
+    font-size: 40px;
+    font-weight: lighter;
+    line-height: 44px;
+    width: 634px;
+    height: 145px;
+}
+
+.banner {
+    width: 587px;
+    height: 330px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 9px 2px rgb(0, 0, 0, 0.125);
+}
+
+.divider {
+    height: 2px;
+    width: 80%;
+    background: rgb(238,238,238);
+    background: linear-gradient(90deg, var(--white-color) 0%, var(--brown-color) 15%, var(--brown-color) 85%, var(--white-color) 100%);
+    margin: 80px 0px;
+}
+
+.circles {
+    width: 1370px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon {
+    background-color: var(--brown-color);
+    height: 100px;
+    width: 100px;
+    border-radius: 1000px;
+}
+
+h2 {
+    font-size: 64px;
+    font-weight: lighter;
+    color: var(--title-color);
+    border-bottom: 1px  ;
+}
+
+.ch {
+    width: 30%;
+    margin: 0px;
+}
+
+.aboutUs {
+    width: 1134px;
+    height: 408px;
+    margin-top: 20px;
+}
+
+.aboutUs p {
+    font-size: 24px;
+    font-weight: lighter;
+    line-height: 29px;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: var(--brown-color);
+    width: 335px;
+    height: 50px;
+    border: none;
+    color: var(--white-color);
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button img {
+    height: 24px;
+}

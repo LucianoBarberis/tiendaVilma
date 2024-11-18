@@ -1,0 +1,32 @@
+:root {
+    --nav-color: #EBE8E1;
+    --link-color: #7B6C52;
+}
+
+.container {
+    display: flex;
+    height: 140px;
+    background-color: var(--nav-color);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.250);
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+img {
+    height: 100px;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+li {
+    font-size: 23px;
+    color: var(--link-color);
+}
+
