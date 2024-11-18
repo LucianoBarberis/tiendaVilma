@@ -18,7 +18,7 @@ const Content = () => {
             <figure className='divider'></figure>
             <h2>Nosotros</h2>
             <figure className='divider ch'></figure>
-            <section className='aboutUs'>
+            <section className='aboutUs' id='aboutus'>
                 <p>En Tienda Vilma, creemos que un hogar limpio y bien cuidado es la base para una vida plena y armoniosa.</p>
                 <p>Desde 1956, nos hemos dedicado a ofrecer productos de limpieza efectivos y fragancias únicas que transforman cada rincón de tu hogar en un espacio acogedor.</p>
                 <p>Nuestra misión es combinar calidad, accesibilidad y cuidado en cada uno de nuestros productos, para que no solo limpien, sino que también aporten frescura y bienestar. Ya sea que busques un detergente para una limpieza profunda o un perfume que deje una huella especial, aquí encontrarás exactamente lo que necesitas.</p>

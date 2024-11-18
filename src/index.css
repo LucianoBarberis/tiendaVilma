@@ -1,8 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 
+:root {
+  --brown-color: #9E8B6B;
+  --white-color: #EEEEEE;
+  --title-color: #4B4436;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Red Hat Display", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #EEEEEE;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  border: 3px solid #9E8B6B;
+}
+
+h2 {
+  font-size: 64px;
+  font-weight: lighter;
+  color: var(--title-color);
+  border-bottom: 1px  ;
+}
+
+.divider {
+  height: 2px;
+  width: 80%;
+  background: rgb(238,238,238);
+  background: linear-gradient(90deg, var(--white-color) 0%, var(--brown-color) 15%, var(--brown-color) 85%, var(--white-color) 100%);
+  margin: 80px 0px;
+}
+
+.ch {
+  width: 30%;
+  margin: 0px;
 }
