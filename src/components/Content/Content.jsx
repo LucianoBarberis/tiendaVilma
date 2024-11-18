@@ -1,5 +1,6 @@
 import React from 'react'
 import './Content.css'
+import { Link } from 'react-router-dom'
 
 const Content = () => {
     return (
@@ -24,10 +25,12 @@ const Content = () => {
                 <p>Con un compromiso constante hacia la excelencia y el servicio al cliente, nos esforzamos por ser tu mejor aliado en el cuidado de tu hogar y en los pequeños detalles que marcan la diferencia.</p>
                 <p>Porque tu hogar merece lo mejor, y nosotros estamos aquí para ofrecerlo.</p>
             </section>
-            <button>
-                <p>Ver nuestros productos destacados</p>
-                <img width="24" height="24" src="https://img.icons8.com/material-rounded/24/eeeeee/forward-arrow.png" alt="forward-arrow"/>
-            </button>
+            <Link to="/products">
+                <button>
+                    <p>Ver nuestros productos destacados</p>
+                    <img width="24" height="24" src="https://img.icons8.com/material-rounded/24/eeeeee/forward-arrow.png" alt="forward-arrow"/>
+                </button>
+            </Link>
         </>
     )
 }
