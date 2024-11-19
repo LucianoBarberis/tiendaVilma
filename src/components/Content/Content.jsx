@@ -1,7 +1,6 @@
 import React from 'react'
 import './Content.css'
 import { Link } from 'react-router-dom'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Content = () => {
     return (

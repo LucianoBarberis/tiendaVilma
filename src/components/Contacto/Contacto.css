@@ -1,0 +1,51 @@
+.containerCont {
+    width: 1055px;
+    height: auto;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(1fr, 4);
+    grid-template-rows: repeat(1fr, 3);
+    grid-template-areas: 
+    "tel tel mail mail"
+    "ubic ubic ubic ubic"
+    "ubic ubic ubic ubic";
+    gap: 20px;
+    background-color: var(--nav-color);
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px 3px rgb(0 ,0 , 0, 0.225);
+}
+.phone {
+    grid-area: tel;
+}
+.mail {
+    grid-area: mail;
+}
+.ubic {
+    grid-area: ubic;
+    height: 500px;
+}
+.box {
+    background-color: var(--white-color);
+    border-radius: 10px;
+    transition: all 0.4s;
+    box-shadow: 0px 0px 20px 3px rgb(0 ,0 , 0, 0.055);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.box:hover {
+    box-shadow: 0px 0px 20px 3px rgb(0 ,0 , 0, 0.225);
+    transform: scale(1.02);
+}
+
+.textCh {
+    font-size: 32px;
+    font-weight: lighter;
+    color: var(--title-color);
+}
+
+.textCont {
+    font-size: 25px;
+    margin-top: 10px;
+}
