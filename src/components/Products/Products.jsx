@@ -1,6 +1,7 @@
 import React from 'react'
 import './Products.css'
-
+import ItemList from '../ItemListContainer/ItemList'
+import products from '../../utils/data'
 
 const Products = () => {
     return (
@@ -9,6 +10,7 @@ const Products = () => {
                 <h2>Nuestros destacados</h2>
                 <figure className='divider tl'></figure>
             </article>
+            <ItemList products={products} />
         </>
     )
 }
