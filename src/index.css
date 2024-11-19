@@ -34,7 +34,7 @@ h2 {
   font-size: 64px;
   font-weight: lighter;
   color: var(--title-color);
-  border-bottom: 1px  ;
+  text-align: center;
 }
 
 .divider {
@@ -48,4 +48,13 @@ h2 {
 .ch {
   width: 30%;
   margin: 0px;
+}
+
+.title {
+  margin: 50px 0px;
+}
+
+.tl {
+  margin: 0;
+  width: 570px;
 }

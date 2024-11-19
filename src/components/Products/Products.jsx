@@ -1,5 +1,4 @@
 import React from 'react'
-import './Products.css'
 import ItemList from '../ItemListContainer/ItemList'
 import products from '../../utils/data'
 

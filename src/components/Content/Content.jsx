@@ -1,6 +1,7 @@
 import React from 'react'
 import './Content.css'
 import { Link } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Content = () => {
     return (
@@ -28,7 +29,6 @@ const Content = () => {
             <Link to="/products">
                 <button>
                     <p>Ver nuestros productos destacados</p>
-                    <img width="24" height="24" src="https://img.icons8.com/material-rounded/24/eeeeee/forward-arrow.png" alt="forward-arrow"/>
                 </button>
             </Link>
         </>
