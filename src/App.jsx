@@ -4,11 +4,13 @@ import Content from './components/Content/Content'
 import Footer from './components/Footer/Footer'
 import Products from './components/Products/Products'
 import Contacto from './components/Contacto/Contacto'
+import { Analytics } from "@vercel/analytics/react"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 function App() {
   return (
     <div className='body'>
+      <Analytics />
       <BrowserRouter>
         <Navbar />
         <Routes>
