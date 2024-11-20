@@ -1,6 +1,7 @@
 import React from 'react'
 import './Content.css'
 import { Link } from 'react-router-dom'
+import { FaHistory, FaCrown, FaMoneyCheck, FaArrowRight  } from 'react-icons/fa'
 
 const Content = () => {
     return (
@@ -11,9 +12,24 @@ const Content = () => {
             </div>
             <figure className='divider'></figure>
             <div className='circles'>
-                <figure className='icon'></figure>
-                <figure className='icon'></figure>
-                <figure className='icon'></figure>
+                <div className='iconContainer'>
+                    <figure className='icon'>
+                        <FaHistory color='#fff' size={30} />
+                    </figure>
+                    <p>Contamos con más de 68 años de experiencia brindando lo mejor a nuestros clientes.</p>
+                </div>
+                <div className='iconContainer'>
+                    <figure className='icon'>
+                        <FaCrown color='#fff' size={30} />
+                    </figure>
+                    <p>La excelencia en nuestros productos es nuestra mayor distinción.</p>
+                </div>
+                <div className='iconContainer'>
+                    <figure className='icon'>
+                        <FaMoneyCheck color='#fff' size={30} />
+                    </figure>
+                    <p>Ofrecemos la comodidad de aceptar todos los métodos de pago.</p>
+                </div>
             </div>
             <figure className='divider'></figure>
             <h2>Nosotros</h2>
@@ -27,7 +43,7 @@ const Content = () => {
             </section>
             <Link to="/products">
                 <button>
-                    <p>Ver nuestros productos destacados</p>
+                    <p>Ver nuestros productos destacados <FaArrowRight size={20} /></p>
                 </button>
             </Link>
         </>

@@ -1,14 +1,8 @@
-:root {
-    --brown-color: #9E8B6B;
-    --white-color: #EEEEEE;
-    --title-color: #4B4436;
-}
-
 .intro {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1370px;
+    width: 80%;
     height: 423px;
     gap: 40px;
 }
@@ -17,8 +11,6 @@
     font-size: 40px;
     font-weight: lighter;
     line-height: 44px;
-    width: 634px;
-    height: 145px;
 }
 
 .banner {
@@ -28,23 +20,38 @@
     box-shadow: 0px 0px 9px 2px rgb(0, 0, 0, 0.125);
 }
 
-.circles {
-    width: 1370px;
-    height: 100px;
+.iconContainer {
+    width: 175px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.iconContainer p {
+    text-align: center;
+}
+
+.circles {
+    width: 80vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 15vw;
 }
 
 .icon {
     background-color: var(--brown-color);
-    height: 100px;
-    width: 100px;
+    height: 75px;
+    width: 75px;
     border-radius: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .aboutUs {
-    width: 1134px;
-    height: 408px;
+    width: 80%;
     margin-top: 20px;
 }
 
@@ -74,4 +81,11 @@ button {
 
 button img {
     height: 24px;
+}
+
+@media (max-width: 1400px) {
+    .intro {
+        flex-direction: column;
+        margin-top: 60px;
+    }
 }
