@@ -26,7 +26,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="containerMobile">
-                <button className="btnNav" onClick={() => setOpenmenu(!openMenu)}><BiMenu size={42}/></button>
+                <button className="btnNav" onClick={() => setOpenmenu(!openMenu)}><BiMenu color="#000" size={42}/></button>
             </div>
             <div  className= {`menu ${openMenu ? "open" : ""}`}>
                 <ul className="ulMobile">
