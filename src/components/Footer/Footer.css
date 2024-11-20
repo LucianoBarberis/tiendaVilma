@@ -1,12 +1,7 @@
-:root {
-    --footer-color: #EBE8E1;
-    --link-color: #7B6C52;
-}
-
 .footer {
     height: 170px;
     width: 100%;
-    background-color: var(--footer-color);
+    background-color: var(--nav-color);
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
     margin-top: 60px;
@@ -18,12 +13,12 @@
 }
 
 .footerText {
-    color: #7B6C52;
+    color: var(--link-color);
     font-size: 23px;
 }
 
 a {
-    color: #7B6C52;
+    color: var(--link-color);
 }
 
 @media (max-width: 600px) {

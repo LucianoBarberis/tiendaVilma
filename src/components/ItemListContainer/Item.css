@@ -1,7 +1,7 @@
 .itemBox {
     min-height: 400px;
     width: 260px;
-    background-color: #EBE8E1;
+    background-color: var(--nav-color);
     border-radius: 20px;
     box-shadow: 0px 0px 26px 4px rgba(0, 0, 0, 0.125);
     transition: all 0.3s;
