@@ -42,7 +42,7 @@ const Content = () => {
                 <p>Porque tu hogar merece lo mejor, y nosotros estamos aquí para ofrecerlo.</p>
             </section>
             <Link to="/products">
-                <button>
+                <button className='btnDes'>
                     <p>Ver nuestros productos destacados <FaArrowRight size={20} /></p>
                 </button>
             </Link>
