@@ -64,3 +64,17 @@ h2 {
 a {
   color: #000;
 }
+
+.destacados {
+  font-size: 64px;
+}
+
+@media (max-width: 600px) {
+  .destacados {
+    font-size: 40px;
+  }
+  .tl {
+    margin: 0;
+    width: 90vw;
+  }
+}

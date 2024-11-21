@@ -6,7 +6,7 @@ const Products = () => {
     return (
         <>
             <article className='title'>
-                <h2>Nuestros destacados</h2>
+                <h2 className='destacados'>Nuestros destacados</h2>
                 <figure className='divider tl'></figure>
             </article>
             <ItemList products={products} />
